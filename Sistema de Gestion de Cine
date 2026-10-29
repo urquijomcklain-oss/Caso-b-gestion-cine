@@ -1,0 +1,54 @@
+Sistema de Gestión de Cine
+
+Descripción del proyecto
+
+Este proyecto consiste en desarrollar un sistema en Java orientado a objetos para gestionar funciones de cine, registrar la venta de entradas y calcular la recaudación.
+
+Objetivo
+
+Aplicar los conceptos de programación orientada a objetos, incluyendo encapsulamiento, herencia, métodos, validaciones y reutilización de código.
+
+Funcionalidades
+
+- Registrar el título de la película y el número de sala.
+- Controlar la cantidad de asientos ocupados.
+- Calcular la recaudación de las funciones.
+- Aplicar un recargo a las funciones de estreno.
+- Controlar la capacidad y disponibilidad de las salas.
+- Simular la venta de entradas.
+- Validar los datos ingresados.
+- Evitar ventas que superen la capacidad disponible.
+
+Estructura del proyecto
+
+El proyecto contiene las siguientes clases Java:
+
+- FuncionCine: clase base que administra la información general de una función.
+- FuncionEstreno: clase que hereda de "FuncionCine" y permite gestionar funciones de estreno con recargo.
+- FuncionNormal: clase que hereda de "FuncionCine" y controla la capacidad de la sala.
+- GestionCine: clase principal que ejecuta el programa y permite probar sus funcionalidades.
+
+Tecnologías utilizadas
+
+- Lenguaje de programación: Java.
+- Entorno de desarrollo: Apache NetBeans.
+- Repositorio y control de versiones: GitHub.
+
+Tarifa base
+
+El precio base de cada entrada es de $12.000 COP.
+
+Ejecución del programa
+
+1. Abrir el proyecto en NetBeans.
+2. Verificar que las clases estén dentro del paquete "gestioncine".
+3. Ejecutar la clase principal "GestionCine".
+4. Revisar los resultados de las pruebas en la consola.
+
+Pruebas y validaciones
+
+Se realizan pruebas para verificar el registro de funciones, el cálculo de la recaudación, la validación de datos, el control de capacidad y el rechazo de ventas que superen los asientos disponibles.
+
+Autor
+
+Mcklain Urquijo Cuchimba
